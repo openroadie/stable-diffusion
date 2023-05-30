@@ -11,10 +11,18 @@ python = "^3.8"
 torch = "2.0.1"
 torchvision = "^0.15.2"
 transformers = "4.19.2"
-diffusers = "^0.16.1"
+diffusers = "^0.12.1"
 invisible-watermark = "^0.1.5"
+omegaconf = "^2.3.0"
+einops = "^0.6.1"
+pytorch-lightning = "^1.5.8"
+taming-transformers = "^0.0.1"
+clip = "^0.2.0"
+kornia = "^0.6.12"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+# pip install taming-transformers-rom1504 
